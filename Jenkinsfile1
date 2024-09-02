@@ -2,19 +2,31 @@ pipeline {
     agent any
 
     stages {
-        stage('Building') {
+        stage('LMS code analysis') {
             steps {
                 echo 'Building..'
             }
         }
 
-        stage('Test') {
+        stage('LMS Build artifacts') {
             steps {
                 echo 'Testing..'
             }
         }
 
-        stage('Deploy') {
+        stage('LMS release Artifacts') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+
+        stage('LMS Deploy Artifacts') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+
+        stage('LMS Clean up') {
             steps {
                 echo 'Deploying....'
             }
