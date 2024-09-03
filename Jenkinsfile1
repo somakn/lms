@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Preparing LMS build'
                 sh 'cd webapp && npm install && npm run build'
-                echo 'Completed LMS build with artifacts'
+                echo 'Completed LMS build with artifact'
             }
         }
 
