@@ -13,7 +13,7 @@ pipeline {
         stage('LMS Build artifacts') {
             steps {
                 echo 'Preparing LMS build'
-                echo 'Completed LMS build'
+                echo 'Completed LMS build with artifacts'
             }
         }
 
